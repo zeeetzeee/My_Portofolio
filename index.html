@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<title>Portofolio</title>
+</head>
+<body>
+
+    
+    
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <h2>My Portofolio</h2>
+        </div>
+
+
+        <div class="right">
+            <a href="https://github.com/zeeetzeee" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.instagram.com/cheeessstzee" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+        
+
+             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hentiksetiorini@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+<!--SECTION 1: Hero-->
+<section class="hero-section">
+    <div class="text">
+        <h2>Hi, I'm Hentik Setyorini 👋</h2>
+        <p>Saat ini saya sedang menempuh pendidikan Sarjana di Program Studi Teknik Informatika, Universitas Islam Balitar (UNISBA) Blitar. During my studies, I have been developing both my technical skills and creative problem-solving abilities, especially in the field of web development, UI/UX design, or data analytics.
+
+Saya percaya bahwa teknologi memiliki peran besar dalam membentuk masa depan yang lebih baik, and I am passionate about learning how to apply my knowledge in real-world projects. Melalui berbagai pengalaman akademik maupun project pribadi, I continuously challenge myself to grow, adapt, and create impactful solutions.
+
+My ultimate goal is not only to improve my own skills, tetapi juga untuk memberikan kontribusi nyata melalui karya yang bermanfaat bagi banyak orang.</p>
+    
+        <div class="links">
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skill</span>
+            </a>
+
+             <a href="#motivation">
+              <i class="fa-solid fa-fire"></i>
+                <span>Motivation</span>
+            </a>
+           
+             <a href="#contact">
+               <i class="fa-solid fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+            <!--tiap object harus di buat sendiri2, supaya style css tidak kebingungan
+        -->
+              
+        </div>
+    </div>
+
+    <div class="headshot">
+        <img src="images/WhatsApp Image 2025-10-02 at 08.53.19_878319ac.jpg" alt="Hentik Setyorini headshot">
+    </div>
+</section>
+
+<!--SECTION 2: Skills-->
+<section id="skills" class="skills-section">
+<h2>Skills</h2>
+<div class="text">
+Selama studi saya, I’ve developed fundamental skills in programming and technology. Saya memahami dasar HTML, PHP, dan sedang mempelajari Python untuk pengembangan web, automasi, dan analisis data.
+
+Selain itu, I also enjoy cooking, a hobby that trains my creativity, patience, and problem-solving — qualities that also support my growth in the tech field</div>
+
+<div class="cells">
+    <div class="cell">
+        <img src="images/htmllogo.png" alt="html logo">
+        <span>HTML</span>
+</div>
+
+    <div class="cell">
+        <img src="images/phplogo.png" alt="php logo">
+        <span>PHP</span>
+</div>
+
+    <div class="cell">
+        <img src="images/pythonlogo.png" alt="python logo">
+        <span>Phyton</span>
+</div>
+
+    <div class="cell">
+        <img src="images/cookinglogo.png" alt="cooking logo">
+        <span>Cooking</span>
+</div>
+</div>
+</section>
+
+
+<!--SECTION 3: Motivation-->
+<section id="motivation" class="motivation-section">
+    <h2>Motivation</h2>
+
+    <div class="group">
+    <div class="motivation-details">
+        <img src="images/potoorang.jpg" alt="">
+        <p>My Motivation is,</p>
+        <p>to become Software Engineer.</p>
+    </div>
+
+    <div class="text">
+        "Saya percaya bahwa teknologi bukan hanya tentang kode, tapi tentang menciptakan solusi yang bermanfaat. I’m motivated to keep learning, growing, and creating innovations that make a positive impact. Dengan semangat ingin tahu yang tinggi dan keinginan untuk terus berkembang, saya berusaha menjadi pribadi yang adaptif, kreatif, dan siap menghadapi tantangan baru di dunia teknologi."</div>
+</div>
+</section>
+<!--SECTION 4: Contact-->
+<section id="contact" class="contact-section">
+    <h2>Contact</h2>
+
+    <div class="group">
+        <div class="text">
+            I’d love to connect with you! Jika Anda ingin berdiskusi, berkolaborasi, atau sekadar berbagi ide, feel free to reach out. You can contact me through my social media or email — I’ll be happy to respond and connect with you soon!
+        </div>
+        <form action="https://formsubmit.co/hentiksetiorini@gmail.com" method="POST">
+            <h3>Feel free to send me a words 😊!</h3>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+        
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+
+</section>
+
+    </main>
+</body>
+</html>
